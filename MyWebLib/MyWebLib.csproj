@@ -20,4 +20,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
   </ItemGroup>
 
+
+
+  <ItemGroup>
+    <None Include="buildTransitive/MyWebLib.targets" Pack="true" PackagePath="buildTransitive/MyWebLib.targets" />
+  </ItemGroup>
+
 </Project>
